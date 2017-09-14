@@ -1,56 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
     <head>
-        <title>Cerberus</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <style>
-            h1{
-                color: #00ff00;
-                font-size: 200%;
-            }
-
-            body{
-                background-color: black;
-            }
-
-            .game-area{
-                margin: auto;
-                width: 50%;
-                padding: 50px;
-                text-align: center;
-            }
-
-            textarea{
-                color: red;
-                text-align: center;
-            }
-
-            .center {
-                margin: auto;
-                width: 50%;
-                border: 3px solid red;
-                padding: 10px;
-            }
-
-        </style>
-
+	<meta charset="UTF-8">
+	<title>C3RB3RUS</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script type="text/javascript" src="js/gameController.js"></script>
     </head>
+
     <body>
         <div class="game-area">
-            <img src="https://media.giphy.com/media/12gwpy5EtYHMgo/giphy.gif" width="300px">
+            <img src="img/skull.gif" width="300px">
 
             <h1> C3RB3RUS </h1>
             
-            <textarea rows="2" cols="60">Digite uma palavra...</textarea>
+            <textarea rows="2" cols="60" id="text-box"></textarea>
 
             <div class="button-area">
-                <button type="btn-enc">Encriptar</button>
+                <button type="btn-enc" onclick="encrypt()">Encriptar</button>
 
-                <button type="btn-dec">Decriptar</button>
+                <button type="btn-dec" onclick="decrypt()">Decriptar</button>
 
-                <button type="btn-hac">Hack</button>
+                <button type="btn-hac" onclick="hack()">Hack</button>
             </div>
         </div>
     </body>
