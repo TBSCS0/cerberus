@@ -10,7 +10,7 @@
 
     <body>
         <div class="game-area">
-            <img src="img/enigma.gif" width="600px">
+            <img src="img/enigma.gif" width="500px">
 
             <h1> Enigma </h1>
             
