@@ -3,7 +3,6 @@
     <head>
 	<meta charset="UTF-8">
 	<title>C3RB3RUS</title>
-	<link rel="shortcut icon" src="img/skull.ico"> 
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <script type="text/javascript" src="js/gameController.js"></script>
     </head>
