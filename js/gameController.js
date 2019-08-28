@@ -25,7 +25,7 @@ function decrypt(){
 
 function hack(){
     if(document.getElementById("text-box").value == key){
-        window.location.href = "w3hv@w1N3r.html";
+        window.location.href = "w3hv@w1nN3r.html";
     }else{
         window.location.href = "lose.html";
     }
