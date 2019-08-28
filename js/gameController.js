@@ -25,13 +25,8 @@ function decrypt(){
 
 function hack(){
     if(document.getElementById("text-box").value == key){
-        window.location.href = "win.html";
+        window.location.href = "w3hv@w1N3r.html";
     }else{
         window.location.href = "lose.html";
     }
 }
-
-//var nome = window.prompt("Qual o seu nome?");
-//alert("Prazer em conhecer voce " + nome);
-//document.getElementById("xti").src = "img/xlamp_on.png";
-//url = "https://media.giphy.com/media/3oz8xAFtqoOUUrsh7W/giphy.gif";
